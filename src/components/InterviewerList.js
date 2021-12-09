@@ -1,6 +1,6 @@
 import React from "react";
 import "components/InterviewerList.scss";
-import InterviewListItem from "components/InterviewerListItem";
+import InterviewerListItem from "components/InterviewerListItem";
 
 export default function InterviewerList(props) {
   const interviewersArr = props.interviewers.map(interviewer => {
