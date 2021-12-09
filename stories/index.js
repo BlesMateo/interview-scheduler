@@ -156,3 +156,10 @@ storiesOf("DayListItem", module)
       onDelete={action("onDelete")}
     />
   ))
+  .add("Confirm", () => (
+    <Confirm
+      message="Delete the appointment?"
+      onConfirm={action("onConfirm")}
+      onCancel={action("onCancel")}
+    />
+  ))
