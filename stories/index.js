@@ -172,4 +172,17 @@ storiesOf("DayListItem", module)
       onClose={action("onClose")}
     />
   ))
-
+  .add("Edit", () => (
+    <Form
+    student="Blesilda Angelica Mateo"
+    interviewer={2}
+    interviewers={interviewers}
+    onSave={action("onSave")}
+    onCancel={action("onCancel")}
+    />))
+  .add("Create", () => (
+    <Form
+    interviewers={interviewers}
+    onSave={action("onSave")}
+    onCancel={action("onCancel")}
+    />))
