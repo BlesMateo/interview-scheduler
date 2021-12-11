@@ -43,8 +43,7 @@ const appointments = [
   }
 ];
 
-
-
+export default function Application(props) {
 const [state, setState] = useState({
   day: "Monday",
   days: [],
@@ -52,7 +51,7 @@ const [state, setState] = useState({
 });
 
 const setDay = day => setState({ ...state, day });
-const setDays = day => setState({ ...state, day });
+const setDays = days=> setState(prev => ({ ...prev, days }));
 
   useEffect(() => {
   axios.get("api/days")
@@ -89,5 +88,5 @@ const setDays = day => setState({ ...state, day });
       <Appointment key="last" time="5pm" />
       </section>
     </main>
-  );
-
+  )
+}
