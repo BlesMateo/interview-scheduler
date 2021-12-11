@@ -45,9 +45,11 @@ const appointments = [
 
 
 
-export default function Application(props) {
-  const [days, setDays] = useState([])
-  const [day, setDay] = useState("Monday")
+const [state, setState] = useState({
+  day: "Monday",
+  days: [],
+  appointments: {}
+});
 
 
   useEffect(() => {
@@ -68,8 +70,8 @@ export default function Application(props) {
       <hr className="sidebar__separator sidebar--centered" />
       <nav className="sidebar__menu">
         <DayList
-        days={days}
-        value={day}
+        days={state.days}
+        value={state.day}
         onChange={setDay}
         /></nav>
       <img
@@ -86,4 +88,4 @@ export default function Application(props) {
       </section>
     </main>
   );
-}
+
