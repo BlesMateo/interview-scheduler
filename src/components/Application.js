@@ -51,6 +51,8 @@ const [state, setState] = useState({
   appointments: {}
 });
 
+const setDay = day => setState({ ...state, day });
+const setDays = day => setState({ ...state, day });
 
   useEffect(() => {
   axios.get("api/days")
