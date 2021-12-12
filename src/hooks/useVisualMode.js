@@ -1,5 +1,6 @@
 export default function useVisualMode(initial) {
   const [mode, setMode] = useState(initial);
+  const [history, setHistory] = useState([initial]);
 
 
 /* Function that takes in a new mode and updates the mode state with the new value */
