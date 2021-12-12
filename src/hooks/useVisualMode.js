@@ -10,6 +10,7 @@ const transition = function(newMode, replace = false) {
   setMode(newMode);
 }
 
+const back = function() { /* ... */ }
 
-return { mode };
+return { mode, transition, back };
 }
