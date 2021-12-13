@@ -22,3 +22,17 @@ if(interview){
 }
   return null
 }
+/*Get interviewers for day function that returns an array of interviewers for the given days */
+
+export function getInterviewersForDay(state, day) {
+  const {days, interviewers} = state;
+  let appointment = [];
+  const filteredDay = days.find(filter => filter.name === day);
+
+  if (filteredDay) {
+    appointment = filteredDay.interviewers.map(id => interviewers[id])
+
+    }
+
+    return appointment;
+}
