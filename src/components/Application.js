@@ -13,6 +13,18 @@ const [state, setState] = useState({
   interviewers: {}
 });
 
+function bookInterview(id, interview) {
+  console.log(id, interview);
+  const appointment = {
+    ...state.appointments[id],
+    interview: { ...interview }
+  };
+  const appointments = {
+    ...state.appointments,
+    [id]: appointment
+  };
+}
+
 const dailyAppointments = getAppointmentsForDay(state, state.day)
 
 const schedule = dailyAppointments.map((appointment) => {
