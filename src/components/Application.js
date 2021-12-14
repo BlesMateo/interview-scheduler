@@ -23,6 +23,10 @@ function bookInterview(id, interview) {
     ...state.appointments,
     [id]: appointment
   };
+
+  setState({...state, appointments})
+
+
 }
 
 const dailyAppointments = getAppointmentsForDay(state, state.day)
