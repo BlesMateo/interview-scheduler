@@ -33,11 +33,12 @@ const schedule = dailyAppointments.map((appointment) => {
 
   return (
     <Appointment
-      key={appointment.iad}
+      key={appointment.id}
       id={appointment.id}
       time={appointment.time}
       interview={interview}
       interviewers={interviewers}
+      bookInterview={bookInterview}
     />
   );
 });
