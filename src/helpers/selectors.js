@@ -22,7 +22,7 @@ if(interview){
 }
   return null
 }
-/*Get interviewers for day function that returns an array of interviewers for the given days */
+/* Get interviewers for day function that returns an array of interviewers for the given days */
 
 export function getInterviewersForDay(state, day) {
   const {days, interviewers} = state;
@@ -33,6 +33,6 @@ export function getInterviewersForDay(state, day) {
     appointment = filteredDay.interviewers.map(id => interviewers[id])
 
     }
-
+    console.log("Them appointments", appointment)
     return appointment;
 }
