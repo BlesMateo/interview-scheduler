@@ -20,7 +20,7 @@ Users cannot register for an appointment without entering a name.
 !["Error on form submission"](https://github.com/BlesMateo/interview-scheduler/blob/master/docs/Error%20Empty%20Student%20Name.gif)
 
 A user is shown an error if an interview cannot be saved or deleted.
-[!"Cannot save interview"](https://github.com/BlesMateo/interview-scheduler/blob/master/docs/Error%20on%20Create.gif)
+!["Cannot save interview"](https://github.com/BlesMateo/interview-scheduler/blob/master/docs/Error%20on%20Create.gif)
 
 !["Cannot delete interview"](https://github.com/BlesMateo/interview-scheduler/blob/master/docs/Error%20on%20Delete.gif)
 
