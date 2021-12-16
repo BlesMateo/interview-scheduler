@@ -1,8 +1,9 @@
 import React from "react";
 import DayListItem from "./DayListItem";
 
+/* Shows avaiable appointment spots with the list of days */
 export default function DayList(props) {
-  const dayArr = props.days.map(day => {
+  const dayArr = props.days.map((day) => {
     return (
       <DayListItem
         key={day.id}
@@ -14,9 +15,5 @@ export default function DayList(props) {
     );
   });
 
-  return (
-    <ul>
-      {dayArr}
-    </ul>
-  );
-};
+  return <ul>{dayArr}</ul>;
+}
