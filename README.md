@@ -6,6 +6,8 @@ A React application that allows users to book and cancel interviews.
 
 Users can book an interview in empty appointment slot and switch between weekdays
 !["Booking and Switching Interviews"](https://github.com/BlesMateo/interview-scheduler/blob/master/docs/Create%20and%20Switch%201.png)
+!["Booking and Switching Interviews"](https://github.com/BlesMateo/interview-scheduler/blob/master/docs/Create%20and%20Switch%202.png)
+!["Booking and Switching Interviews"](https://github.com/BlesMateo/interview-scheduler/blob/master/docs/Create%20and%20Switch%203.png)
 
 Users can edit appointments, which will save and update.
 !["Editing student name and saving"]
