@@ -31,17 +31,17 @@ A user is shown an error if an interview cannot be saved or deleted.
 
 ## Dependencies
 
-• axios: "^0.24.0",
-• classnames: "^2.2.6",
-• normalize.css: "^8.0.1",
-• react: "^16.9.0",
-• react-hooks-testing-library: "^0.6.0",
+- axios: "^0.24.0",
+- classnames: "^2.2.6",
+- normalize.css: "^8.0.1",
+- react: "^16.9.0",
+- react-hooks-testing-library: "^0.6.0",
 
 ## Setup
 
-• Install dependencies with `npm install`.
-• Run npm start in scheduler-api directory
-• On a seperate window on terminal, run npm start in interview-scheduler directory.
+- Install dependencies with `npm install`.
+- Run npm start in scheduler-api directory
+- On a seperate window on terminal, run npm start in interview-scheduler directory.
 
 ## Running Webpack Development Server
 
