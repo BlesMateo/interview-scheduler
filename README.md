@@ -10,38 +10,24 @@ Users can book an interview in empty appointment slot and switch between weekday
 !["Booking and Switching Interviews"](https://github.com/BlesMateo/interview-scheduler/blob/master/docs/Create%20and%20Switch%203.png)
 
 Users can edit appointments, which will save and update.
-!["Editing student name and saving"]
-(https://github.com/BlesMateo/interview-scheduler/blob/master/docs/Edit%201.png)
-!["Editing student name and saving"]
-(https://github.com/BlesMateo/interview-scheduler/blob/master/docs/Edit%202.png)
-!["Editing student name and saving"]
-(https://github.com/BlesMateo/interview-scheduler/blob/master/docs/Edit%203.png)
-!["Editing student name and saving"]
-(https://github.com/BlesMateo/interview-scheduler/blob/master/docs/Edit%204.png)
+!["Editing student name and saving"](https://github.com/BlesMateo/interview-scheduler/blob/master/docs/Edit%201.png)
+!["Editing student name and saving"](https://github.com/BlesMateo/interview-scheduler/blob/master/docs/Edit%202.png)
+!["Editing student name and saving"](https://github.com/BlesMateo/interview-scheduler/blob/master/docs/Edit%203.png)
+!["Editing student name and saving"](https://github.com/BlesMateo/interview-scheduler/blob/master/docs/Edit%204.png)
 
 Users can cancel appointments, which will save and update.
-!["Cancelling appointments"]
-(https://github.com/BlesMateo/interview-scheduler/blob/master/docs/Cancel%20Appointment%201.png)
-!["Cancelling appointments"]
-(https://github.com/BlesMateo/interview-scheduler/blob/master/docs/Cancel%20Appointment%202.png)
-!["Cancelling appointments"]
-(https://github.com/BlesMateo/interview-scheduler/blob/master/docs/Cancel%20Appointment%203.png)
-!["Cancelling appointments"]
-(https://github.com/BlesMateo/interview-scheduler/blob/master/docs/Cancel%20Appointment%204.png)
+!["Cancelling appointments"](https://github.com/BlesMateo/interview-scheduler/blob/master/docs/Cancel%20Appointment%201.png)
+!["Cancelling appointments"](https://github.com/BlesMateo/interview-scheduler/blob/master/docs/Cancel%20Appointment%202.png)
+!["Cancelling appointments"](https://github.com/BlesMateo/interview-scheduler/blob/master/docs/Cancel%20Appointment%203.png)
+!["Cancelling appointments"](https://github.com/BlesMateo/interview-scheduler/blob/master/docs/Cancel%20Appointment%204.png)
 
 A user is shown an error if an interview cannot be saved or deleted.
-!["Cannot save or delete appointments"]
-(https://github.com/BlesMateo/interview-scheduler/blob/master/docs/Create%20Error%201.png)
-!["Cannot save or delete appointments"]
-(https://github.com/BlesMateo/interview-scheduler/blob/master/docs/Create%20Error%202.png)
-!["Cannot save or delete appointments"]
-(https://github.com/BlesMateo/interview-scheduler/blob/master/docs/Create%20Error%203.png)
-!["Cannot save or delete appointments"]
-(https://github.com/BlesMateo/interview-scheduler/blob/master/docs/Cancel%20Error%201.png)
-!["Cannot save or delete appointments"]
-(https://github.com/BlesMateo/interview-scheduler/blob/master/docs/Cancel%20Error%202.png)
-!["Cannot save or delete appointments"]
-(https://github.com/BlesMateo/interview-scheduler/blob/master/docs/Cancel%20Error%203.png)
+!["Cannot save or delete appointments"](https://github.com/BlesMateo/interview-scheduler/blob/master/docs/Create%20Error%201.png)
+!["Cannot save or delete appointments"](https://github.com/BlesMateo/interview-scheduler/blob/master/docs/Create%20Error%202.png)
+!["Cannot save or delete appointments"](https://github.com/BlesMateo/interview-scheduler/blob/master/docs/Create%20Error%203.png)
+!["Cannot save or delete appointments"](https://github.com/BlesMateo/interview-scheduler/blob/master/docs/Cancel%20Error%201.png)
+!["Cannot save or delete appointments"](https://github.com/BlesMateo/interview-scheduler/blob/master/docs/Cancel%20Error%202.png)
+!["Cannot save or delete appointments"](https://github.com/BlesMateo/interview-scheduler/blob/master/docs/Cancel%20Error%203.png)
 
 ## Dependencies
 
