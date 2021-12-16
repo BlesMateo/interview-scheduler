@@ -24,7 +24,6 @@ export default function useApplicationData() {
         appointments: all[1].data,
         interviewers: all[2].data,
       }));
-      console.log("======>", all);
     });
   }, []);
 
@@ -40,7 +39,6 @@ export default function useApplicationData() {
 
   // User books appointment causing spot availability to update and decrease
   function bookInterview(id, interview) {
-    console.log(id, interview);
     const appointment = {
       ...state.appointments[id],
       interview: { ...interview },
